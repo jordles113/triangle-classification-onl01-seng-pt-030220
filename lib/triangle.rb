@@ -20,10 +20,7 @@ attr_accessor :side1, :side2, :side3, :allsides
       raise TriangleError if
         @side1 <=0 || @side2 <= 0 || @side3 <= 0
       end
-        end
-      end
-    end
-  end
+    end 
 
   class TriangleError < StandardError
     def maessage
@@ -32,4 +29,4 @@ attr_accessor :side1, :side2, :side3, :allsides
 
   end
 
-end	
+end
